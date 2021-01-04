@@ -1,9 +1,9 @@
 # Intelligent-identifier
 
 Intelligent identifier is an interesting project which classify an image captured by camera based on mask on person's face into three categories i.e 
-1. Incorrectly weared 
-2. No mask on the face 
-3. Mask on the face.
+1. Incorrectly wore
+2. With mask
+3. Without mask
 
 In this project I built a sequential model with series of convolution neural network in Keras with python using dataset([Credits:vinay kudari](https://www.kaggle.com/vinaykudari/facemask)) available on kaggle.
 This project is carried through using OpenCV, Keras, Tensorflow.
