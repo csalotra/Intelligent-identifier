@@ -15,7 +15,7 @@ Procedure:
 3). Model based on sequential stack is made with four 2-dimensional convolution layer of different nodes. Rectified linear unit function along with downsampling of the input representation by maxpooling is done after these four layers. Then input is flattened and dropout layer is used to prevent overfitting. Two dense layer with 64 and 3 neurons are deployed.<br />
 4). Model is trained with validation split of 0.1 and various losses and accuracy are observed using Pyplot module.<br />
 5). Camera is used to capture images, Haar feature-based cascade classifier is used to detect face in the image, the faced image is cropped, arrayed, resized and reshaped and fed to model for the prediction.<br />
-6).Based on the prediction, rectangle with different text upon it is sketched around the face.<br />
+6). Based on the prediction, rectangle with different text upon it is sketched around the face.<br />
 
 Result:<br />
 Classification model which can proficiently detects the type of input images with an accuracy upto 81%.
