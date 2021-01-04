@@ -1,4 +1,4 @@
-# Intelligent-identifier
+# Intelligent-Identifier
 
 Intelligent identifier is an interesting project which classify an image captured by camera based on mask on person's face into three categories i.e 
 1. Incorrectly wore
